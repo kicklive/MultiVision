@@ -1,0 +1,14 @@
+{
+  "name": "angular-resource",
+  "version": "1.6.2-build.5229+sha.c00903b",
+  "license": "MIT",
+  "main": "./angular-resource.js",
+  "ignore": [],
+  "dependencies": {
+    "angular": "1.6.2-build.5229+sha.c00903b"
+  },
+  "_source": "C:\\bower files\\bower-angular-resource-master\\angular-resource",
+  "_target": "*",
+  "_originalSource": "C:\\bower files\\bower-angular-resource-master\\angular-resource",
+  "_direct": true
+}

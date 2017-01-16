@@ -1,0 +1,27 @@
+{
+  "name": "multivision",
+  "description": "Extreme Tech Training",
+  "main": "index.js",
+  "authors": [
+    "Darryl Payton"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/vendor",
+    "test",
+    "tests"
+  ],
+  "proxy": "http://amweb.ey.net:8443",
+  "https-proxy": "http://amweb.ey.net:8080",
+  "dependencies": {
+    "angular": "C:\\bower files\\bower-angular-master\\angular",
+    "jquery": "C:\\bower files\\jquery-dist-master\\jquery",
+    "angular-resource": "C:\\bower files\\bower-angular-resource-master\\angular-resource",
+    "angular-route": "C:\\bower files\\bower-angular-route-master\\angular-route",
+    "toastr": "C:\\bower files\\toastr-bower-master\\toastr"
+  }
+}
