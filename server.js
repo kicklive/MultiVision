@@ -30,7 +30,6 @@ else{
 }
     
     
-
 mongodb://<dbuser>:<dbpassword>@ds161028.mlab.com:61028/multivision
 
 var db=mongoose.connection;
