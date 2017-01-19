@@ -22,6 +22,7 @@
     "jquery": "C:\\bower files\\jquery-dist-master\\jquery",
     "angular-resource": "C:\\bower files\\bower-angular-resource-master\\angular-resource",
     "angular-route": "C:\\bower files\\bower-angular-route-master\\angular-route",
-    "toastr": "C:\\bower files\\toastr-bower-master\\toastr"
+    "toastr": "C:\\bower files\\toastr-bower-master\\toastr",
+    "bootstrap": "^3.3.7"
   }
 }
