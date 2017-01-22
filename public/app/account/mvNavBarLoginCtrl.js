@@ -10,7 +10,7 @@ angular
   ) {
     $scope.identity = mvIdentity;
     $scope.signin = function(username, password) {
-      //goes to the route.js app.post
+      //goes to the mvAuth.js authenticateUser
       mvAuth.authenticateUser(username, password).then(function(success) {
         if (success) {
           mvNotifier.notify("You have successfully signed in!");
@@ -18,8 +18,8 @@ angular
           mvNotifier.notify("Username/Password combination incorrect.");
         }
       });
-    }
-
+    };
+    //goes to the mvAuth.js logoutUser
     $scope.signout = function() {
       mvAuth.logoutUser().then(function() {
         $scope.username = "";
@@ -27,6 +27,5 @@ angular
         mvNotifier.notify("You have successfully signed out!");
         $location.path("/");
       });
-    }
+    };
   });
-
