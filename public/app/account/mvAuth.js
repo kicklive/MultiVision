@@ -26,6 +26,16 @@ angular.module("app").factory("mvAuth", function($http, mvIdentity, $q,mvUser) {
         dfd.resolve();
       });
       return dfd.promise;
+    }, 
+    authorizeCurrentUserForRoute:function(role){
+       if (
+            mvIdentity.isAuthorized("Admin")
+          //  if(mvIdentity.currentUser && mvIdentity.currentUser.roles.indexOf('Admin')>-1
+          ) {
+            return true;
+          } else {
+            return $q.reject("not authorized");
+          }
     }
   };
 });
