@@ -7,7 +7,7 @@ module.exports=function(){
 
 passport.use(new LocalStrategy(function(username, password, done) {
   debugger;
-  User.findOne({userName: username}).exec(function(err, user) {
+  User.findOne({username: username}).exec(function(err, user) {
     if (user &&user.authenticate(password)) {
       return done(null, user);
     } else {

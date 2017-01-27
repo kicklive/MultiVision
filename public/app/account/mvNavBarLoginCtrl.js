@@ -15,7 +15,7 @@ angular
         if (success) {
           mvNotifier.notify("You have successfully signed in!");
         } else {
-          mvNotifier.notify("Username/Password combination incorrect.");
+          mvNotifier.notify("username/Password combination incorrect.");
         }
       });
     };
