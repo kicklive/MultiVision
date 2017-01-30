@@ -6,5 +6,5 @@
                 th Publish Date
             tbody
                 tr(ng-repeat="course in courses")
-                    td({course.title})
-                    td({course.published | date})
+                    td{{course.title}}
+                    td{{course.published | date}}

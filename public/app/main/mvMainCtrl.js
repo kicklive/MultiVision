@@ -1,7 +1,7 @@
 angular.module('app').controller('mvMainCtrl',function($scope){
    //$scope.myVar="Hello Angular";
    $scope.courses=[
-    {name: 'C# for Sociopaths', featured: true, published: new Date('10/5/2013')},
+    {name: 'xC# for Sociopaths', featured: true, published: new Date('10/5/2013')},
     {name: 'C# for Non-Sociopaths', featured: true, published: new Date('10/12/2013')},
     {name: 'Super Duper Expert C#', featured: false, published: new Date('10/1/2013')},
     {name: 'Visual Basic for Visual Basic Developers', featured: false, published: new Date('7/12/2013')},
